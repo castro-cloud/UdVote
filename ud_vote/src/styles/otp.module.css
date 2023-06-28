@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(16, 3, 46);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+
+.leftContainer {
+  width: 50%;
+}
+
+
+.logo {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.leftContainer>img {
+  width: 650px;
+  margin: 10px ;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.rightContainer>button {
+  color: white;
+  background-color: blue;
+  padding: 12px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+
+.rightContainer>input {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.rightContainer>p {
+
+  color: white;
+  font-size: 1.5em;
+
+}

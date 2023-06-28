@@ -1,0 +1,100 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    Font-family: Outfit;
+    Font-style: Regular;
+}
+
+:root{
+    --mainColor:#29335C;
+    --mainColorLight: #5767aa;
+    --secondaryColor:#DB2B39;
+    --textColor:#eee;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+} */
+
+/* 
+
+nav{
+    display: flex;
+    color: var(--textColor);
+    text-decoration: none;
+    list-style: none; 
+
+
+}
+ */
+
+/* nav > ul{
+
+    display: flex;
+
+}
+
+
+ li{
+
+    margin: 15px;
+    color: var(--textColor);
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+nav li:hover{
+color: var(--secondaryColor);
+} */
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:80px;
+    padding: 0 2rem;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    
+  }
+  
+  .link:hover {
+    color: #555;
+  }
+
+  
+  

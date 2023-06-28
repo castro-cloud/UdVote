@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(9, 1, 27);
+  }
+  
+  .btn > img{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .btn > button{
+    color:white;
+    background: rgb(45, 45, 181);
+    border-radius: 8px;
+  }
+  
+  .rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    Font-family: Outfit;
+    Font-style: Regular;
+  }
+  
+  .btn {
+    background: rgb(38, 38, 136);
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    Font-family: Outfit;
+    Font-style: Regular;
+  
+  }
+  
+  .btn:hover {
+    background: rgb(230, 220, 220);
+  }
+  
+  .btns{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    background-image: url('/public/votewall.jpg');
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+  }
